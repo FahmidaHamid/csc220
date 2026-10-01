@@ -1,0 +1,4 @@
+Student Name: Alice
+Student ID: 1222
+Student Email: ali8@someuniv.edu
+Current CGPA: 3.95

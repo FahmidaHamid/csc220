@@ -1,0 +1,7 @@
+# Ignore bin folders at every level
+bin/
+
+# Ignore compiled Java files, including those outside bin
+*.class
+
+Cormen Introduction to Algorithms.pdf

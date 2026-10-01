@@ -1,0 +1,4 @@
+Student Name: Bob
+Student ID: 1211
+Student Email: bob9@someuniv.edu
+Current CGPA: 3.8

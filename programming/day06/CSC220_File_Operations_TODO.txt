@@ -1,0 +1,78 @@
+CSC 220 – File Operations Activity
+To-Do List
+
+Task 1: Explore and Document the Demo Files
+--------------------------------------------
+1. Open and run each demo file:
+   - FileDemo1.java
+   - FileDemo2.java
+   - FileDemo3.java
+   - FileDemo4.java
+   - FileDemo5.java
+
+2. Use the JavaDoc comment in FileDemo1.java as a template.
+
+3. Add a JavaDoc comment at the beginning of each remaining demo class:
+   - FileDemo2.java
+   - FileDemo3.java
+   - FileDemo4.java
+   - FileDemo5.java
+
+4. In each JavaDoc comment, briefly explain:
+   - what the class demonstrates,
+   - the important file operation(s),
+   - the exception(s) involved,
+   - whether the exception is checked or unchecked,
+   - any important Java concepts used (for example: try/catch, throws,
+     PrintWriter, FileWriter, Path, Files, append vs. overwrite).
+
+5. Do not simply copy the FileDemo1 comment.
+   Describe what each individual class actually does.
+
+
+Task 2: Test the Code with a CSV File
+-------------------------------------
+1. Create a small .csv file containing sample student data.
+
+   Example:
+
+   name,major,score
+   Alice,Computer Science,92
+   Bob,Mathematics,85
+   Carlos,Computer Science,97
+   Diana,Biology,78
+
+2. Choose one of the file-reading examples and modify it so that it reads
+   data from your .csv file.
+
+3. Read the file one line at a time.
+
+4. Separate the values in each line using:
+
+   line.split(",")
+
+5. Display the information in a clear format.
+
+   Example:
+
+   Student: Alice
+   Major: Computer Science
+   Score: 92
+
+6. Test your program with different data.
+
+7. Observe what happens if:
+   - the file does not exist,
+   - a row is missing a value,
+   - the score contains text instead of an integer.
+
+8. Be prepared to identify any exceptions you encounter and explain whether
+   they are checked or unchecked.
+
+
+Before You Finish
+-----------------
+- Make sure all programs compile.
+- Make sure your JavaDoc comments are clear and specific.
+- Make sure your CSV-reading program runs successfully.
+- Save all changes before submission.

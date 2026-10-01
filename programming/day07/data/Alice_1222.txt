@@ -1,0 +1,4 @@
+Student Name: Alice
+Student ID: 1222
+Student Email: ali2@callutheran.edu
+Current CGPA: 3.95

@@ -1,0 +1,4 @@
+Student Name: Bob
+Student ID: 1211
+Student Email: bob8@callutheran.edu
+Current CGPA: 3.8
