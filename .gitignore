@@ -4,4 +4,5 @@ bin/
 # Ignore compiled Java files, including those outside bin
 *.class
 
-Cormen Introduction to Algorithms.pdf
+
+/Cormen Introduction to Algorithms.pdf
