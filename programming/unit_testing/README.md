@@ -41,11 +41,11 @@ public int add(int a, int b) {
 assertEquals(9, Calculator.add(4, 5));
 
 ```
-=> This checks whether add(4, 5) returns the expected value, 9. Tests can also check changes to an object or whether an operation throws an exception.
+=> This checks whether `add(4, 5)` returns the expected value, `9`.
+
+=> Tests can also check changes to an object or whether an operation throws an exception.
 
 => source: https://docs.junit.org/6.1.3/writing-tests/intro.html
-
-=> source: https://docs.junit.org/6.0.3/api/org.junit.jupiter.api/org/junit/jupiter/api/Assertions.html
 
 ## What is JUnit?
 
@@ -111,11 +111,15 @@ mvn -version
 
 **2. Create the project**
 
--> Create a folder named UnitTesting.
--> In VS Code, select File → Open Folder and open UnitTesting.
--> Inside it, create a folder named src.
--> Inside src, create two folders: main and test.
--> Save the provided pom.xml in the UnitTesting root folder.
+- Create a folder named UnitTesting.
+
+- In VS Code, select File → Open Folder and open UnitTesting.
+
+- Inside it, create a folder named src.
+
+- Inside src, create two folders: main and test.
+
+- Save the provided pom.xml in the UnitTesting root folder.
 
 **3. Locate the application and test files**
 
