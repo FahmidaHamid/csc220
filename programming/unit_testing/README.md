@@ -103,30 +103,30 @@ mvn -version
 ```
 **Basic Requirements:**
 
-    - JDK 17 or newer—your Java 26 installation works.
-    - Maven.
-    - VS Code, with **Microsoft’s Extension Pack for Java** installed. This includes **Test Runner** for Java.
-        - If needed, follow the JDK installation instructions or Maven installation instructions. Restart VS Code after installation.
+- JDK 17 or newer—your Java 26 installation works.
+- Maven.
+- VS Code, with **Microsoft’s Extension Pack for Java** installed. This includes **Test Runner** for Java.
+- If needed, follow the JDK installation instructions or Maven installation instructions. Restart VS Code after installation.
 
 
 **2. Create the project**
 
-    -> Create a folder named UnitTesting.
-    -> In VS Code, select File → Open Folder and open UnitTesting.
-    -> Inside it, create a folder named src.
-    -> Inside src, create two folders: main and test.
-    -> Save the provided pom.xml in the UnitTesting root folder.
+-> Create a folder named UnitTesting.
+-> In VS Code, select File → Open Folder and open UnitTesting.
+-> Inside it, create a folder named src.
+-> Inside src, create two folders: main and test.
+-> Save the provided pom.xml in the UnitTesting root folder.
 
 **3. Locate the application and test files**
 
-    Application files begin with:  
+Application files begin with:  
 
     ```bash
     
     package main;
 
     ```
-    Test files begin with:
+Test files begin with:
 
     ```bash
     
@@ -145,6 +145,7 @@ In the terminal, from the folder containing `pom.xml`, run:
 mvn test
 
 ```
+
 Maven compiles the application and test code, then runs the JUnit tests.
 
 A successful run reports:
@@ -161,6 +162,33 @@ If a test fails, look above BUILD FAILURE for the test name and the expected ver
 **5. If VS Code still displays import errors**
 
 If mvn test passes but the editor shows errors:
-    1. Open the Command Palette: Cmd + Shift + P on macOS.
-    2. Run Java: Clean Java Language Server Workspace.
+    1. Open the Command Palette: **Cmd + Shift + P** on macOS.
+    2. Run Java: **Clean Java Language Server Workspace**.
     3. Confirm the restart and wait for project loading to finish.
+
+# ToDo:
+
+## In-Class Exercise: Add More Unit Tests
+
+### Add three new JUnit test methods to each test class:
+    - CalculatorTest.java: three additional tests for Calculator.
+    - BankAccountTest.java: three additional tests for BankAccount.
+    
+    Your six new tests must check scenarios that are not already covered by the existing tests.
+
+### Requirements:
+
+- Give each test a descriptive name and annotate it with @Test.
+- Include an appropriate assertion in every test.
+- For BankAccount, include at least one invalid operation tested with assertThrows(). Also verify that the rejected operation leaves the balance unchanged.
+- Make each test independent; create a fresh account when needed.
+
+Before writing each test, identify the inputs or initial state, operation, and expected outcome.
+
+### Run all tests using:
+```bash
+
+mvn test
+```
+
+- Be ready to explain what each new test checks and why that scenario matters.

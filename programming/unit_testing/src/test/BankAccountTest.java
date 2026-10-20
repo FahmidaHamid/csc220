@@ -32,7 +32,7 @@ public class BankAccountTest {
     @Test
     void overdraftThrowsAndPreservesBalance() {
         BankAccount account = new BankAccount(100);
-
+        
         assertThrows(
             IllegalArgumentException.class,
             () -> account.withdraw(150)
